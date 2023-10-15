@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Tests for class fileStorage """
+""" Tests  class fileStorage """
 import unittest
 import os
 import json
@@ -19,11 +19,11 @@ class TestFileStorage(unittest.TestCase):
             pass
 
     def test_all(self):
-        """Test the 'all' method of FileStorage"""
+        """Test the 'all' method  FileStorage"""
         pass
 
     def test_new(self):
-        """Test the 'new' method of FileStorage"""
+        """Test the 'new' method  FileStorage"""
         model = BaseModel()
         self.storage.new(model)
         all_objects = self.storage.all()
@@ -41,11 +41,11 @@ class TestFileStorage(unittest.TestCase):
         self.assertIn('BaseModel.{}'.format(model.id), all_objects)
 
     def test_save(self):
-        """ Tests serializing objects to json file """
+        """ Tests serializing objects file json"""
         pass
 
     def test_reload(self):
-        """ Tests deserializing the json file """
+        """ Tests deserialized file json """
         pass
 
 

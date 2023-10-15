@@ -40,8 +40,8 @@ class BaseModel:
 
     def to_dict(self):
         """returns a dictt containing all keys and values of object"""
-        obj-dictt = dict(self.__dict__)
-        obj-dictt['__class__'] = type(self).__name__
-        obj-dictt['created_at'] = self.created_at.isoformat()
-        obj-dictt['updated_at'] = self.updated_at.isoformat()
-        return obj-dictt
+        obj_dictt = dict(self.__dict__)
+        obj_dictt['__class__'] = type(self).__name__
+        obj_dictt['created_at'] = self.created_at.isoformat()
+        obj_dictt['updated_at'] = self.updated_at.isoformat()
+        return obj_dictt

@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""class State"""
+"""The class State"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """class State inherits BaseModel"""
+    """The class State inherits BaseModel"""
     name = ""
